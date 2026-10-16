@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#176b55"><meta name="description" content="Novarge ile harfleri çiz, sesleri keşfet, ilk kelimelerini kur. 4–6 yaş için okuma yazma oyunları.">
+  <title>Novarge · Okuma Yazma</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></symbol>
+    <symbol id="i-pencil" viewBox="0 0 24 24"><path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5v16M12 5C8 2 5 3 2 4v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-3-1-6-2-10 1Z"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 14v-3a9 9 0 0 1 18 0v3M3 12h4v9H4a1 1 0 0 1-1-1Zm18 0h-4v9h3a1 1 0 0 0 1-1Z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="m11 4-6 5H2v6h3l6 5Zm5 4a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V6a4 4 0 0 1 8 0v4m-4 5v2"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2m-7 9v3m-4 0h8"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C-2 8 10 2 21 3c0 11-6 20-16 16Zm0 0L16 8"/></symbol>
+    <symbol id="owl" viewBox="0 0 280 280"><ellipse cx="141" cy="256" rx="77" ry="10" fill="#296d5620"/><path d="M68 92 57 30l62 32m94 30 10-62-62 32" fill="#bc673e"/><path d="m70 70-5-26 29 22m112 3 8-25-29 22" fill="#f7c6a6"/><path d="M58 139C49 76 85 55 140 55s91 21 82 84l-5 62c-4 38-35 54-77 54s-74-16-78-54Z" fill="#cc7a4d"/><path d="M81 129c0-44 30-56 59-29 28-27 60-15 60 29v62c0 34-30 49-60 49s-59-15-59-49Z" fill="#ffebcb"/><path d="M62 131c-32 14-38 48-24 68 17 0 31-20 39-41m142-27c32 14 38 48 24 68-17 0-31-20-39-41" fill="#ae5c3b"/><circle cx="108" cy="126" r="28" fill="#fffdf5"/><circle cx="172" cy="126" r="28" fill="#fffdf5"/><ellipse cx="112" cy="128" rx="8" ry="11" fill="#34453e"/><ellipse cx="168" cy="128" rx="8" ry="11" fill="#34453e"/><circle cx="114" cy="124" r="2.5" fill="white"/><circle cx="170" cy="124" r="2.5" fill="white"/><path d="m129 151 11 14 11-14Z" fill="#e6ad32"/><ellipse cx="91" cy="151" rx="11" ry="6" fill="#eea48a"/><ellipse cx="190" cy="151" rx="11" ry="6" fill="#eea48a"/><path d="m120 186 4 5 4-5m24 0 4 5 4-5m-24 20 4 5 4-5" fill="none" stroke="#deb489" stroke-width="4" stroke-linecap="round"/><path d="M108 247v12m-9 0h18m55-12v12m-9 0h18" stroke="#855337" stroke-width="6" stroke-linecap="round"/><path d="m68 207 71 13v34l-71-14Zm71 13 72-13v33l-72 14Z" fill="#287760" stroke="#1e5e4b" stroke-width="3"/><path d="m79 220 47 9m-47 1 47 9m26-10 46-9m-46 19 46-9" stroke="#c0ddab" stroke-width="3" stroke-linecap="round"/></symbol>
+  </defs></svg>
+  <aside class="sidebar">
+    <a class="brand" href="#home" aria-label="Novarge ana sayfa"><span class="brand-icon"><svg><use href="#i-book"/></svg></span><span>novarge<small>OKUMA YAZMA</small></span><span class="brand-dot">✦</span></a>
+    <div class="profile"><div class="avatar">🌱</div><div><b>Minik kaşif</b><span>Her gün yeni bir keşif</span></div></div>
+    <p class="nav-label">KEŞİF ZAMANI</p>
+    <nav aria-label="Ana gezinme">
+      <button data-nav="home" class="nav-item active"><svg><use href="#i-home"/></svg>Keşif alanım<span class="nav-dot"></span></button>
+      <button data-nav="write" class="nav-item"><svg><use href="#i-pencil"/></svg>Harfleri çiz</button>
+      <button data-nav="read" class="nav-item"><svg><use href="#i-book"/></svg>Birlikte okuyalım</button>
+      <button data-nav="listen" class="nav-item"><svg><use href="#i-headphones"/></svg>Dinle ve söyle</button>
+      <button data-nav="rewards" class="nav-item"><svg><use href="#i-star"/></svg>Yıldızlarım<span class="count" id="sideStars">0</span></button>
+    </nav>
+    <div class="sidebar-bottom"><div class="little-note"><svg><use href="#i-leaf"/></svg><p>Küçük adımlar,<br><b>kocaman keşifler.</b></p></div><button id="parentBtn" class="parent-btn"><svg><use href="#i-lock"/></svg>Ebeveyn alanı<svg class="small"><use href="#i-arrow"/></svg></button><span class="sidebar-foot">Sevgiyle öğren, oyunla büyü.</span></div>
+  </aside>
+  <div class="app"><header class="topbar"><span class="mobile-wordmark">novarge<span>✦</span></span><div class="breadcrumb">Benim öğrenme yolculuğum <span>/</span> <b id="pageName">Keşif alanım</b></div><div class="top-actions"><span class="age-badge">4–6 yaş</span><button id="soundToggle" class="icon-btn" aria-label="Sesli yönlendirmeyi kapat" aria-pressed="true"><svg><use href="#i-sound"/></svg></button><button class="mini-avatar" id="profileBtn" aria-label="Ebeveyn alanını aç">🌱</button></div></header>
+  <main id="main" tabindex="-1"></main><footer>Her çocuğun öğrenme hızı kendine özeldir. <span>Birlikte, adım adım. ♡</span></footer></div>
+  <dialog id="activity" aria-labelledby="activityTitle"><div class="dialog-top"><span class="eyebrow" id="activityLabel">BİRLİKTE ÖĞRENELİM</span><button class="close-btn" id="closeActivity" aria-label="Etkinliği kapat">×</button></div><div id="activityBody"></div></dialog>
+  <dialog id="parent" aria-labelledby="parentTitle"><div class="dialog-top"><span class="eyebrow">BÜYÜKLER İÇİN KÜÇÜK BİR ALAN</span><button class="close-btn" id="closeParent" aria-label="Ebeveyn alanını kapat">×</button></div><div id="parentBody"></div></dialog>
+  <div class="toast" id="toast" role="status"></div><div id="confetti" aria-hidden="true"></div>
+  <script src="app.js"></script>
+</body></html>
